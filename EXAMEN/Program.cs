@@ -50,7 +50,8 @@ namespace EXAMEN
 
     class Login
     {
-        //  bool rezultat; //o vom folosi pentru a memora daca utilizatorul are cont
+          bool rezultat = 0;
+
         public static void select()
         {
 
@@ -78,22 +79,39 @@ namespace EXAMEN
         }
         public static void login()
         {
+            start:
+            Console.Clear();
+            if(rezultat == 1)
+            { 
+                Console.WriteLine("Ati introdus date gresite"); 
+            }
+           
             //introducem parola si loginul
             Console.WriteLine("\n\n\t\t\t\t\t╔═══════════════════════════════════════╗");
             Console.WriteLine("\t\t\t\t\t║\t      Introdu Login \t\t║");
             Console.WriteLine("\t\t\t\t\t╚═══════════════════════════════════════╝");
-            Console.Write("\t\t\t\t\t\t    "); Console.ReadLine();
+            Console.Write("\t\t\t\t\t\t    "); string login = Console.ReadLine();
             Console.Clear();
 
             Console.WriteLine("\n\n\t\t\t\t\t╔═══════════════════════════════════════╗");
             Console.WriteLine("\t\t\t\t\t║\t Introdu Parola \t\t║");
             Console.WriteLine("\t\t\t\t\t╚═══════════════════════════════════════╝");
-            Console.Write("\t\t\t\t\t\t    "); Console.ReadLine();
+            Console.Write("\t\t\t\t\t\t    "); string pass = Console.ReadLine();
             Console.Clear();
 
             //verificam daca datele sunt introduse corect
 
-            //switch(if )
+            if((login=="1") && (pass=="1"))
+            {
+                pricipal();
+            }
+            else
+            {
+                rezultat = 1;
+
+                goto start;
+            }
+
         }
 
         public static void inregistrare()
