@@ -50,16 +50,50 @@ namespace EXAMEN
 
     class Login
     {
-        bool rezultat; //o vom folosi pentru a memora daca utilizatorul are cont
-
+        //  bool rezultat; //o vom folosi pentru a memora daca utilizatorul are cont
         public static void select()
         {
+
+            Console.WriteLine("\n\n\t\t\t\t\t╔═══════════════════════════════════════╗");
+            Console.WriteLine("\t\t\t\t\t║\t Autentificare in sistem \t║");
+            Console.WriteLine("\t\t\t\t\t╠═══════════════════════════════════════╣");
+            Console.WriteLine("\t\t\t\t\t║\t    Autentificare: 1\t\t║\n\t\t\t\t\t║\t    Inregistrare: 2\t\t║");
+            Console.WriteLine("\t\t\t\t\t╚═══════════════════════════════════════╝");
+
             //selectam cu ajutorul unui switch daca avem cont
+            switch (Console.ReadKey(true).KeyChar)
+            {
+                case '1':
+                    // daca logare
+                    Console.Clear();
+                    login();
+                    break;
+                case '2':
+                    // code block
+                    Console.Clear();
+                    inregistrare();
+                    break;
+            }
+
         }
         public static void login()
         {
             //introducem parola si loginul
+            Console.WriteLine("\n\n\t\t\t\t\t╔═══════════════════════════════════════╗");
+            Console.WriteLine("\t\t\t\t\t║\t      Introdu Login \t\t║");
+            Console.WriteLine("\t\t\t\t\t╚═══════════════════════════════════════╝");
+            Console.Write("\t\t\t\t\t\t    "); Console.ReadLine();
+            Console.Clear();
+
+            Console.WriteLine("\n\n\t\t\t\t\t╔═══════════════════════════════════════╗");
+            Console.WriteLine("\t\t\t\t\t║\t Introdu Parola \t\t║");
+            Console.WriteLine("\t\t\t\t\t╚═══════════════════════════════════════╝");
+            Console.Write("\t\t\t\t\t\t    "); Console.ReadLine();
+            Console.Clear();
+
             //verificam daca datele sunt introduse corect
+
+            //switch(if )
         }
 
         public static void inregistrare()
@@ -69,7 +103,6 @@ namespace EXAMEN
         }
 
     }
-
 
 
 
