@@ -49,9 +49,9 @@ namespace EXAMEN
 
     }
 
-    class Login
+    class Login : Principal
     {
-          bool rezultat = 0;
+         public static bool rezultat = false;
 
         public static void select()
         {
@@ -82,7 +82,7 @@ namespace EXAMEN
         {
             start:
             Console.Clear();
-            if(rezultat == 1)
+            if(rezultat == true)
             { 
                 Console.WriteLine("Ati introdus date gresite"); 
             }
@@ -104,11 +104,11 @@ namespace EXAMEN
 
             if((login=="1") && (pass=="1"))
             {
-                pricipal();
+                Principal.pricipal();
             }
             else
             {
-                rezultat = 1;
+                rezultat = true;
 
                 goto start;
             }
