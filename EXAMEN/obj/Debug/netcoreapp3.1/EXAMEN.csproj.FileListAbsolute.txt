@@ -1,0 +1,13 @@
+C:\Users\ArtyRo\Source\Repos\blinduandi\EXAMEN\EXAMEN\bin\Debug\netcoreapp3.1\EXAMEN.exe
+C:\Users\ArtyRo\Source\Repos\blinduandi\EXAMEN\EXAMEN\bin\Debug\netcoreapp3.1\EXAMEN.deps.json
+C:\Users\ArtyRo\Source\Repos\blinduandi\EXAMEN\EXAMEN\bin\Debug\netcoreapp3.1\EXAMEN.runtimeconfig.json
+C:\Users\ArtyRo\Source\Repos\blinduandi\EXAMEN\EXAMEN\bin\Debug\netcoreapp3.1\EXAMEN.runtimeconfig.dev.json
+C:\Users\ArtyRo\Source\Repos\blinduandi\EXAMEN\EXAMEN\bin\Debug\netcoreapp3.1\EXAMEN.dll
+C:\Users\ArtyRo\Source\Repos\blinduandi\EXAMEN\EXAMEN\bin\Debug\netcoreapp3.1\EXAMEN.pdb
+C:\Users\ArtyRo\Source\Repos\blinduandi\EXAMEN\EXAMEN\obj\Debug\netcoreapp3.1\EXAMEN.csprojAssemblyReference.cache
+C:\Users\ArtyRo\Source\Repos\blinduandi\EXAMEN\EXAMEN\obj\Debug\netcoreapp3.1\EXAMEN.AssemblyInfoInputs.cache
+C:\Users\ArtyRo\Source\Repos\blinduandi\EXAMEN\EXAMEN\obj\Debug\netcoreapp3.1\EXAMEN.AssemblyInfo.cs
+C:\Users\ArtyRo\Source\Repos\blinduandi\EXAMEN\EXAMEN\obj\Debug\netcoreapp3.1\EXAMEN.csproj.CoreCompileInputs.cache
+C:\Users\ArtyRo\Source\Repos\blinduandi\EXAMEN\EXAMEN\obj\Debug\netcoreapp3.1\EXAMEN.dll
+C:\Users\ArtyRo\Source\Repos\blinduandi\EXAMEN\EXAMEN\obj\Debug\netcoreapp3.1\EXAMEN.pdb
+C:\Users\ArtyRo\Source\Repos\blinduandi\EXAMEN\EXAMEN\obj\Debug\netcoreapp3.1\EXAMEN.genruntimeconfig.cache

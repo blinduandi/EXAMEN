@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andi\\source\\repos\\EXAMEN\\EXAMEN\\EXAMEN.csproj": {}
+    "C:\\Users\\ArtyRo\\Source\\Repos\\blinduandi\\EXAMEN\\EXAMEN\\EXAMEN.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andi\\source\\repos\\EXAMEN\\EXAMEN\\EXAMEN.csproj": {
+    "C:\\Users\\ArtyRo\\Source\\Repos\\blinduandi\\EXAMEN\\EXAMEN\\EXAMEN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andi\\source\\repos\\EXAMEN\\EXAMEN\\EXAMEN.csproj",
+        "projectUniqueName": "C:\\Users\\ArtyRo\\Source\\Repos\\blinduandi\\EXAMEN\\EXAMEN\\EXAMEN.csproj",
         "projectName": "EXAMEN",
-        "projectPath": "C:\\Users\\Andi\\source\\repos\\EXAMEN\\EXAMEN\\EXAMEN.csproj",
-        "packagesPath": "C:\\Users\\Andi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andi\\source\\repos\\EXAMEN\\EXAMEN\\obj\\",
+        "projectPath": "C:\\Users\\ArtyRo\\Source\\Repos\\blinduandi\\EXAMEN\\EXAMEN\\EXAMEN.csproj",
+        "packagesPath": "C:\\Users\\ArtyRo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ArtyRo\\Source\\Repos\\blinduandi\\EXAMEN\\EXAMEN\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Andi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\ArtyRo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -56,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400-preview-015178\\RuntimeIdentifierGraph.json"
         }
       }
     }
