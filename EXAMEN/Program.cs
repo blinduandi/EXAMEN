@@ -32,24 +32,31 @@ namespace EXAMEN
             {
                 case '1':
                     // daca logare
-                    Console.WriteLine("Logare");
-                    login();
                     Console.Clear();
+                    login();
                     break;
                 case  '2':
                     // code block
-                    Console.WriteLine("Inreg");
-                    inregistrare();
                     Console.Clear();
+                    inregistrare();                
                     break;
-
             }
 
         }
         public static void login()
         {
-              //Log = Console.Read();
+            //Log = Console.Read();
+            Console.WriteLine("\n\n\t\t\t\t\t╔═══════════════════════════════════════╗");
+            Console.WriteLine("\t\t\t\t\t║\t      Introdu Login \t\t║");
+            Console.WriteLine("\t\t\t\t\t╚═══════════════════════════════════════╝");
+            Console.Write("\t\t\t\t\t\t    "); Console.Read();
+            Console.Clear();
 
+            Console.WriteLine("\n\n\t\t\t\t\t╔═══════════════════════════════════════╗");
+            Console.WriteLine("\t\t\t\t\t║\t Introdu Parola \t\t║");
+            Console.WriteLine("\t\t\t\t\t╚═══════════════════════════════════════╝");
+            Console.Write("\t\t\t\t\t\t    "); Console.Read();
+            Console.Clear();
             //introducem parola si loginul
             //verificam daca datele sunt introduse corect
         }
