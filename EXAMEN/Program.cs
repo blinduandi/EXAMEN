@@ -43,6 +43,7 @@ namespace EXAMEN
             writer.Close();
 
             Console.Write("Fisier XML creat cu succes");
+            Console.Clear();
 
         }
 
@@ -132,6 +133,7 @@ namespace EXAMEN
         static void Main(string[] args)
         {
             Loading.show();
+            Login.select();
 
         }
     }
