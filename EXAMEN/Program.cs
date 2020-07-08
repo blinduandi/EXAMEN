@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Xml;
+using System.Threading;
 
 namespace EXAMEN
 {
@@ -7,13 +9,41 @@ namespace EXAMEN
 
         public static void show()
         {
-            Console.WriteLine("LOADING...");
+            for(int i=0;i<10;i++)
+            {
+                Thread.Sleep(200);
+                Console.Clear();
+              Console.WriteLine("\t\t\t\t\t\tLOADING.");
+                Thread.Sleep(200);
+                Console.Clear();
+              Console.WriteLine("\t\t\t\t\t\tLOADING..");
+                Thread.Sleep(200);
+                Console.Clear();
+              Console.WriteLine("\t\t\t\t\t\tLOADING...");
+
+            }
+            
+            load();
         }
 
 
         public static void load()
         {
             //informatia din XML
+            XmlTextWriter writer = new XmlTextWriter("exemplu.xml", System.Text.Encoding.UTF8);
+            writer.WriteStartDocument(true);
+            writer.Formatting = Formatting.Indented;
+
+            writer.WriteStartElement("Exemplu"); //<Exemplu>
+            writer.WriteStartElement("Numar"); //<Numar>
+            writer.WriteString("2");  //continut
+            writer.WriteEndElement(); //</Numar>
+            writer.WriteEndElement(); //</Exemplu>
+            writer.WriteEndDocument();
+            writer.Close();
+
+            Console.Write("Fisier XML creat cu succes");
+
         }
 
     }
@@ -68,6 +98,7 @@ namespace EXAMEN
 
         static void Main(string[] args)
         {
+            Loading.show();
 
         }
     }
