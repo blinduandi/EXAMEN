@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Xml;
 using System.Threading;
+using System.Data;
 
 namespace EXAMEN
 {
@@ -13,13 +14,13 @@ namespace EXAMEN
             {
                 Thread.Sleep(200);
                 Console.Clear();
-              Console.WriteLine("\t\t\t\t\t\tLOADING.");
+              Console.WriteLine("\t\t\t\t\t\tLOADING ░");
                 Thread.Sleep(200);
                 Console.Clear();
-              Console.WriteLine("\t\t\t\t\t\tLOADING..");
+              Console.WriteLine("\t\t\t\t\t\tLOADING ░▒");
                 Thread.Sleep(200);
                 Console.Clear();
-              Console.WriteLine("\t\t\t\t\t\tLOADING...");
+              Console.WriteLine("\t\t\t\t\t\tLOADING ░▒▓ ");
 
             }
             
@@ -29,21 +30,38 @@ namespace EXAMEN
 
         public static void load()
         {
-            //informatia din XML
-            XmlTextWriter writer = new XmlTextWriter("exemplu.xml", System.Text.Encoding.UTF8);
+
+           /* XmlReader xmlFile;
+            xmlFile = XmlReader.Create("exemplu2.xml", new XmlReaderSettings());
+
+            Console.WriteLine(xmlFile.Read());*/
+        
+
+/* //informatia din XML
+        XmlTextWriter writer = new XmlTextWriter("exemplu2.xml", System.Text.Encoding.UTF8);
             writer.WriteStartDocument(true);
             writer.Formatting = Formatting.Indented;
 
-            writer.WriteStartElement("Exemplu"); //<Exemplu>
-            writer.WriteStartElement("Numar"); //<Numar>
-            writer.WriteString("2");  //continut
-            writer.WriteEndElement(); //</Numar>
-            writer.WriteEndElement(); //</Exemplu>
+            
+            writer.WriteStartElement("Nume"); //<Exemplu>
+            writer.WriteString("Andi");
+            writer.WriteStartElement("Prenume"); //<Numar>
+            writer.WriteString("Blindu");
+            writer.WriteStartElement("Login"); //<Numar>
+            writer.WriteString("123");
+            writer.WriteStartElement("Parola"); //<Numar>
+            writer.WriteString("123");
+         
+            writer.WriteEndElement();
+            writer.WriteEndElement();
+            writer.WriteEndElement();
+            writer.WriteEndElement(); 
             writer.WriteEndDocument();
             writer.Close();
 
+
             Console.Write("Fisier XML creat cu succes");
-            Console.Clear();
+            Console.Clear();*/
 
         }
 
